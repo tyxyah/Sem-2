@@ -1,8 +1,18 @@
-/*************************************************************************************/
-/* Name : Siti Aisyah Binti Razali                                                   */
-/* Matric number : 207704                                                            */
-/* Lab/Question number : 3 / Q1                                                      */
-/*************************************************************************************/
+/*******************************************************************************************/
+/* Create a class named InventoryItemwhich has the following fields:                       */
+/* •description  The private descriptionfield is a Stringthat holds the item’s name,       */
+/*     	      e.g. hammer, wrench, or nails.                                               */
+/* •units	 The private unitfield is an intthat holds the number of items             */
+/* In addition, the class should have the following methods:                               */
+/* •a no-argument constructor that will assign “ “ to description and 0 to units           */
+/* •a constructor that accepts a String argument that is assigned to the descriptionfield  */
+/* •a constructor that accepts a String argument that is assigned to the descriptionfield  */  
+/*  and an int argument that is assigned to the unitsfield                                 */
+/* •getDescription() returns the value in the descriptionfield                             */
+/* •getUnits() returns the value in the unitsfield                                         */
+/* •setDescription() assigns its argument to the descriptionfield                          */
+/* •setUnits() assigns its argument to the unitsfield                                      */
+/*******************************************************************************************/
 public class InventoryItem {
 
 	private String description;
