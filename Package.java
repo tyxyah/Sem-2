@@ -1,8 +1,15 @@
-/*************************************************************************************/
-/* Name : Siti Aisyah Binti Razali                                                   */
-/* Matric number : 207704                                                            */
-/* Lab/Question number : 3 / Q2                                                      */
-/*************************************************************************************/
+/**********************************************************************************************************/
+/* Create  a  class  name Package with  data  fields  for weight in  ounces,  shipping  method,           */
+/* and shipping  cost.The weightand shipping  costdata  fields  have privatemodifier.                     */
+/* The shipping methodis  character:  ‘A’  for  air,  ‘T’  for  truck,  and  ‘M’  for  mail.              */
+/* The Package class  contains  a constructor  that  requires  arguments  for weightand shipping  method. */
+/* The  constructor  calls  a calculateCost()method that determines theshipping cost                      */
+/* The Packageclass also contains a display()method that displays the values in all four fields           */ 
+/* Create another method named insuredCost()that adds an insurance costto the shipping cost               */
+/* Write  an  application  named UsePackagethat  creates  three  objects  of Package type                 */
+/* using  a variety  of  weights  and  shipping  method  codes                                            */
+/* (either  ‘A’,  ‘T’,  or  ‘M’).  Display  the  results  for Package.                                    */
+/**********************************************************************************************************/
 public class Package {
 	
 	//data fields
